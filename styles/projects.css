@@ -1,0 +1,163 @@
+h1 {
+  text-align: left;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0;
+  border: none;
+  padding: 2rem;
+  margin: 0;
+}
+
+body {
+  background-color: #090C08;
+  background-image: url("https://www.nicepng.com/png/full/796-7965805_stars-star-glitter-gold-golden-yellow-space-planets.png");
+  background-size: 20rem;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: white;
+  color: #090C08;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+a {
+  /* color: inherit; */
+}
+
+.navLink {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+#projectsRow {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+  margin-bottom: 5rem;
+  min-width: 320px;
+  max-width: 400px;
+}
+
+p,
+a {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h4 {
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+button {
+  filter: invert(1);
+  filter: brightness(1);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+
+/* cards */
+.card {
+  background-color: #8A95A5;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card h4 {
+  color: #090C08;
+}
+
+.card p {
+  color: #2a324b;
+}
+
+.card a {
+  color: white;
+}
+
+.card img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  height: 50%;
+}
+
+/* hover */
+.card:hover{
+  background-color: #6A7585;
+}
+
+.card:hover h4,
+.card:hover p, 
+.card:hover a, 
+.card:hover img{
+opacity: 0.5;
+}
+
+/* nav */
+nav h5 {
+  text-align: center;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+footer{
+  background-color: #2a324b;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer p{
+  color: white;
+}
+
+footer a{
+   color: #8A95A5;
+}
+
+footer a:hover {
+  color: #CAD5E5;
+}
+
+a{
+  color: inherit;
+}

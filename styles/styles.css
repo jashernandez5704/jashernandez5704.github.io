@@ -1,0 +1,46 @@
+body {
+  /* background-image: url("https://www.nicepng.com/png/full/796-7965805_stars-star-glitter-gold-golden-yellow-space-planets.png"); */
+  background-size: 15rem;
+  background-color: #090C08;
+  background-image: url("https://www.nicepng.com/png/full/796-7965805_stars-star-glitter-gold-golden-yellow-space-planets.png");
+  background-size: 20rem;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer */
+footer{
+  background-color: #2a324b;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10rem;
+}
+
+footer p{
+  color: white;
+}
+
+footer a{
+   color: #8A95A5;
+}
+
+footer a:hover {
+  color: #CAD5E5;
+}
+
+a{
+  color: inherit;
+}
+
+/* cards */
+.card {
+  border-radius: 20px;
+}
