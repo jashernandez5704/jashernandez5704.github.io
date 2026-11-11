@@ -46,10 +46,13 @@ footer p{
   margin: 5px;
   font-size: 1rem;
   text-align: center;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 footer a{
-   color: var(--accent-1);;
+   color: var(--accent-1);
+   overflow-wrap: anywhere;
 }
 
 footer a:hover {
