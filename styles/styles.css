@@ -1,9 +1,22 @@
+:root{
+  --color-1: #ffffff;
+  --color-2: #090C08;
+  --accent-1: #8A95A5;
+  --accent-2: #2a324b;
+}
+
+/* main */
 body {
-  /* background-image: url("https://www.nicepng.com/png/full/796-7965805_stars-star-glitter-gold-golden-yellow-space-planets.png"); */
   background-size: 15rem;
-  background-color: #090C08;
+  background-color: var(--color-2);
   background-image: url("https://www.nicepng.com/png/full/796-7965805_stars-star-glitter-gold-golden-yellow-space-planets.png");
   background-size: 20rem;
+}
+
+.nav-link {
+  margin: 0.5rem;
+  margin-left: 2rem;
+  font-size: 1.3rem;
 }
 
 .center {
@@ -15,29 +28,37 @@ body {
 
 /* footer */
 footer{
-  background-color: #2a324b;
-  height: 5rem;
+  background-color: var(--accent-2);
+  min-height: 5rem;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   margin-top: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 footer p{
   color: white;
+  text-wrap: wrap;
+  margin: 5px;
+  font-size: 1rem;
+  text-align: center;
 }
 
 footer a{
-   color: #8A95A5;
+   color: var(--accent-1);;
 }
 
 footer a:hover {
-  color: #CAD5E5;
+  filter: invert(1);
 }
 
 a{
   color: inherit;
+  font: inherit;
 }
 
 /* cards */

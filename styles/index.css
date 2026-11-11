@@ -14,8 +14,8 @@ h1 {
 
 h1,
 .mynav {
-  background-color: white;
-  color: #090C08;
+  background-color: var(--color-1);
+  color: var(--color-2);
   margin-bottom: 5rem;
 }
 
@@ -44,6 +44,10 @@ h4, h5 {
   font-size: 30px;
 }
 
+#introCard h4 {
+  text-align: center;
+}
+
 p,
 li {
   font-family: "JetBrains Mono", monospace;
@@ -52,8 +56,8 @@ li {
 }
 
 .card-body {
-  background-color: #8A95A5;
-  color: #2a324b;
+  background-color: var(--accent-1);
+  color: var(--accent-2);
   padding: 1rem;
   align-self: center;
 }
@@ -97,7 +101,7 @@ a:hover {
 
 summary {
   font-size: 1.5rem;
-  background-color: #2a324b;
+  background-color: var(--accent-2);
   color: white;
   padding: 0.5rem;
 }
@@ -116,9 +120,9 @@ summary {
 }
 
 .accordion-item {
-  /* background-color: #8A95A5; */
-  background-color: #8A95A5;
-  color: #2a324b;
+  /* background-color: var(--accent-1); */
+  background-color: var(--accent-1);
+  color: var(--accent-2);
   border: none;
   margin: 1rem;
 }

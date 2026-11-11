@@ -118,7 +118,7 @@ button {
 
 /* hover */
 .card:hover{
-  background-color: #6A7585;
+  filter: invert(0.1);
 }
 
 .card:hover h4,
@@ -135,29 +135,4 @@ nav h5 {
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
-}
-
-footer{
-  background-color: #2a324b;
-  height: 5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-footer p{
-  color: white;
-}
-
-footer a{
-   color: #8A95A5;
-}
-
-footer a:hover {
-  color: #CAD5E5;
-}
-
-a{
-  color: inherit;
 }
